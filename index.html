@@ -10,10 +10,17 @@
 
     <!-- Bootstrap -->
     <link href="bootstrap-3.3.6-dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
 
   </head>
   <body background="photo-1458668383970-8ddd3927deed.jpeg">
+  <div class="row">
+    <div class = "col-md-2">
   <a><img src="main logo.png" id = "logo"></a>
+    </div>
     <nav class="navbar navbar-default">
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
@@ -29,21 +36,55 @@
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
-        <li><a href="#">Solutions</a></li>
-        <li><a href="#">Team</a></li>
-        <li><a href="#">Contact Us</a></li>
-      </ul>
+        <ul class="nav navbar-nav">
+          <div class = "col-md-4">
+            <li><a href="#">Solutions</a></li>
+          </div>
+          <div class = "col-md-3">
+            <li><a href="#">Team</a></li>
+          </div>
+          <div class = "col-md-5">
+            <li><a href="#">Contact Us</a></li>
+          </div>
+        </ul>
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#"><button type="button" class="btn btn-success">Sign Up</button></a></li>
+        <li><a href="#"><button type="button" class="btn btn-success" style="font-size: 20px; margin-top: 1%;">Sign Up</button></a></li>
         <li><a href="#">Log In</a></li>
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
+</div>
+
+<div class = "bottom">
+
+  <div class = "row">
+    <div class = "col-md-6">
+      <div class = "firstline">
+        <p> Knowledge sharing reimagined </p>
+      </div>
+    </div>
+  </div>
+
+  <div class = "row">
+    <div class = "col-md-6">
+      <div class = "secondline">
+        <p> Belong to the next generation captial markets community </p>
+      </div>
+    </div>
+  </div>
+  
+</div>
+ <!-- <div class = "bottom">
+      <div class = "paragraphline1">
+        <p> Knowledge sharing reimagined </p>
+      </div>
+      <div class = "paragraphline2">
+        <p> Belong to the next generation capital markets community </p>
+      </div>
+      <div>
+        <a><button type="button" class="btn btn-success">Get Started</button></a>
+      </div>
+    </div>   -->
   </body>
 </html>
