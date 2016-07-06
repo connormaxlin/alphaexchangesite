@@ -1,22 +1,39 @@
-.bg {
-background: url(photo-1458668383970-8ddd3927deed.jpeg);
+body {
 
+background-size: 100%; auto;
+background-repeat: no-repeat;
 
 }
 
 #logo {
 	width: 200px;
 	height: 67px;
-	margin-top: 2%;
-	margin-left: 6%;
+	margin-top: 15%;
+	margin-left: 30%;
 	float: left;
 }
 
 .navbar.navbar-default {
-	float: right;
-    background:transparent;
-    margin-top: 2%;
-    margin-right: 40%;
+	float: left;
+	font-size: 20px;
+    background: transparent;
     border-color: transparent;
+    margin-left: 3%;
+    margin-top: 3%;
+    margin-right: 2%;
 }
 
+.bottom {
+	margin-top: 25%;
+	margin-left: 5%;
+}
+
+.firstline {
+	font-size: 40px;
+	color: blue;
+}
+
+.secondline {
+	font-size: 25px;
+	color: blue;
+}
