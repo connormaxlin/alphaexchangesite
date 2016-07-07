@@ -103,12 +103,12 @@ body {
 }
 
 .firstline {
-	font-size: 40px;
+	font-size: 50px;
 	color: #282b79;
 }
 
 .secondline {
-	font-size: 25px;
+	font-size: 30px;
 	color: #282b79;
 }
 
@@ -211,5 +211,9 @@ body {
 	font-size: 20px;
 }
 
-
+#squarebutton {
+	border-radius: 0 !important;
+	border: none;
+	background-color: #66c5b1;
+}
 
