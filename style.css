@@ -132,6 +132,17 @@ body {
 	background-size:100%,100%
 }
 
+#pt7{
+	background-color:white;
+}
 #pt8{
 	background-color:#5a64ae;
+}
+
+.names{
+	font-size:30px;
+}
+
+#links{
+	font-size:20px;
 }
