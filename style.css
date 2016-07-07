@@ -146,3 +146,27 @@ body {
 #links{
 	font-size:20px;
 }
+
+#buysidesolution {
+	margin-top: 30%;
+	margin-left: 21%;
+	margin-bottom: 10%;
+	width: 73%;
+	height: 80%;
+}
+
+#buysidesolutionHeader {
+	margin-left: 2%;
+	margin-top: 22%;
+	font-size: 50px;
+}
+
+#buysidesolutionContent {
+	margin-left: 2%;
+	color: #999999;
+	font-size: 25px;
+	margin-right: 10%;
+	margin-bottom: 15%;
+}
+
+
