@@ -2,6 +2,21 @@ body {
 
 }
 
+.leftImgs{
+	width:100%;
+	height:100%;
+	margin-left: 15%;
+
+}
+
+.rightTxt{
+	font-size:30px;
+	margin-right:5%;
+}
+.howItWorks{
+	margin-top: 5%;
+	margin-left: 5%;
+}
 .pt2Font{
 	font-size:50px;
 }
@@ -17,6 +32,10 @@ body {
 
 #pt2{
 	background-color: white;
+}
+
+#pt3{
+	background-color: #e6e6e6;
 }
 
 #logo {
