@@ -120,5 +120,15 @@ body {
 	text-align:center;
 	color: white;
 	font-size:45px;
+}
 
+#team{
+	text-align:center;
+	font-size:72px;
+	color:white;
+}
+
+#pt6{
+	background-image:url(photo-1463392898715-3939d4ab1019.jpeg);
+	background-size:100%,100%
 }
