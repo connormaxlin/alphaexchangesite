@@ -15,6 +15,11 @@
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
 
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
   </head>
   <body>
     <div id="main">
@@ -189,17 +194,56 @@
 </div>
 
 <!--pt 5-->
+<br><br><br>
 <div id ="pt5">
-  <div class="row">
-    <div class="col-md-6">
-       
+  <div class = "row">
+    <div class="container">
+  <ul class="nav nav-tabs" id = "tabstyling">
+    <li class="active"><a data-toggle="tab" href="#home">Buy Side Solutions</a></li>
+    <li><a data-toggle="tab" href="#menu1">Research Provider Solutions</a></li>
+    <li><a data-toggle="tab" href="#menu2">Investor Relations Solutions</a></li>
+  </ul>
+
+  <div class="tab-content">
+    <div id="home" class="tab-pane fade in active">
+      <div class="row">
+        <div class="col-md-6">
+          <img src = "buyside solutions.png" id = "buysidesolution"> 
+        </div>
+        <div class = "col-md-6">
+          <p id = "buysidesolutionHeader"> Buy Side Solutions </p>
+          <p id = "buysidesolutionContent"> Our members strategically request bespoke research, data, models, and insights at the touch of a button, allowing them to save time and receive real time responses from the right professionals. With MiFID II increasing pressure on asset managers to scrutinise and justify their research spend, we help buyers comply with the upcoming regulatory burden by providing easily discoverable pools of quality research from a wider audience of specialists</p>
+        </div>
+      </div>
     </div>
-    <div class = "col-md-6">
-      <p id = "buysidesolutionHeader"> Buy Side Solutions </p>
-      <p id = "buysidesolutionContent"> Our members strategically request bespoke research, data, models, and insights at the touch of a button, allowing them to save time and receive real time responses from the right professionals. With MiFID II increasing pressure on asset managers to scrutinise and justify their research spend, we help buyers comply with the upcoming regulatory burden by providing easily discoverable pools of quality research from a wider audience of specialists</p>
+    <div id="menu1" class="tab-pane fade">
+      <div class = "row">
+        <div class = "col-md-8">
+          <p id = "researchprovidersolutionHeader"> Research Provider Solutions </p>
+          <p id = "researchprovidersolutionContent"> We allow Independent Research Providers, Individual Specialists, and Sell Side Brokers to privately answer hundreds of requests for research, data, models, and projects. By connecting you with a wide universe of institutional clients representing over $1 trillion in assets under management, we help you penetrate asset manager firewalls and get discovered! You’ll be able to set your rate for calls, meetings, research reports, and bespoke projects, while we take care of all the billing and payments on one central platform, so you can focus on creating your professional profile and promoting your expertise. </p>
+        </div>
+        <div class = "col-md-4">
+          <img src = "research solutions.png" id = "researchprovidersolution">
+        </div>
+      </div>
+    </div>
+    <div id="menu2" class="tab-pane fade">
+      <div class = "row">
+        <div class = "col-md-5">
+          <img src = "IR solutions.png" id = "investorrelationssolution">
+        </div>
+        <div class = "col-md-7">
+          <p id = "investorrelationssolutionHeader"> Investor Relations Solutions </p>
+          <p id = "investorrelationssolutionContent"> Get direct access to your shareholders by answering investors’ most pressing questions. Discover new investors who might be interested in owning your stock. Arrange calls and meetings directly on the platform with new and existing shareholders. </p>
+        </div>
+      </div>
     </div>
   </div>
 </div>
+  <br><br><br><br>
+</div>
+</div>
+
 
 <!--pt 6-->
 <div id="pt6">
@@ -326,3 +370,30 @@
 
   </body>
 </html>
+
+
+
+
+<!-- hold up for a sec
+<div class = "tabspacing">
+  <ul class="nav nav-tabs" role="tablist" id = "tabstyling">
+    <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab" id = "">Buy Side Solutions</a></li>
+    <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Research Provider Solutions</a></li>
+    <li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">Investor Relations Solutions</a></li>
+  </ul>
+
+  <div class="tab-content">
+    <div role="tabpanel" class="tab-pane" id="home">
+      <div class="row">
+        <div class="col-md-6">
+          <img src = "buyside solutions.png" id = "buysidesolution"> 
+        </div>
+        <div class = "col-md-6">
+          <p id = "buysidesolutionHeader"> Buy Side Solutions </p>
+          <p id = "buysidesolutionContent"> Our members strategically request bespoke research, data, models, and insights at the touch of a button, allowing them to save time and receive real time responses from the right professionals. With MiFID II increasing pressure on asset managers to scrutinise and justify their research spend, we help buyers comply with the upcoming regulatory burden by providing easily discoverable pools of quality research from a wider audience of specialists</p>
+        </div>
+      </div>
+    </div>
+    <div role="tabpanel" class="tab-pane" id="profile">...</div>
+    <div role="tabpanel" class="tab-pane" id="messages">...</div>
+  </div> -->
