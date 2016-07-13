@@ -274,35 +274,31 @@ body {
 	background-color: #66c5b1;
 }
 
-#timelinept1 {
-	height: 10%;
-	margin-right: -2%;
+#oval1 {
+	margin-top: 10%;
+	max-width: 15%;
 }
 
 #timeline1 {
 	margin-top: -1%;
-	max-height: 60%;
-	min-width: 5%;
+	height: 60vh;
+	width: 1.25vh;
 }
 
-#oval1 {
-	margin-top: 10%;
-	max-height: 5%;
+#oval2 {
+	margin-top: -1%;
+	max-width: 15%;
 }
 
 #timeline2 {
 	margin-top: -1%;
-	max-height: 60%;
-	min-width: 5%;
-}
-
-#oval2 {
-	margin-top: 0%;
-	max-height: 5%;
+	height: 60vh;
+	width: 1.25vh;
 }
 
 #oval3 {
-	max-height: 5%;
+	margin-top: -1%;
+	max-width: 15%;
 }
 
 .tabspacing {
