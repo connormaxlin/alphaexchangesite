@@ -311,13 +311,26 @@ body {
 	margin-bottom: -8%;
 }
 
-#tabstyling {
+#tabstyling{
 	margin-left: 19%;
+	border-color: #30337e;
+
 }
 
-#tabstyling li a {
-	font-size: 18px;
+#tabstyling li >a{
+	font-family: 'Lato', sans-serif;
+	font-weight:400;
 	color: #30337e;
+	font-size:18px;
+	border-color:#30337e;
+}
+
+#tabstyling li.active> a {
+	background-color: #30337e;
+	font-size: 18px;
+	color: white;
+	font-family: 'Lato', sans-serif;
+	font-weight:300;
 }
 
 #researchprovidersolutionHeader {
