@@ -301,11 +301,6 @@ body {
 	max-width: 15%;
 }
 
-.tabspacing {
-	margin-top: 5%;
-	margin-left: 30%;
-	margin-bottom: -8%;
-}
 
 #tabstyling{
 	margin-left: 19%;
@@ -313,7 +308,7 @@ body {
 	-webkit-border-radius: 0;
 	-moz-border-radius: 0;
 	border-radius: 0;
-
+	border-right:20px;
 }
 
 #tabstyling li >a{
@@ -325,6 +320,8 @@ body {
 	-webkit-border-radius: 0;
 	-moz-border-radius: 0;
 	border-radius: 0;
+	margin:0;
+	border-width: 2px;
 }
 
 #tabstyling li.active> a {
