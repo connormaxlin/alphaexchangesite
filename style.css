@@ -310,6 +310,9 @@ body {
 #tabstyling{
 	margin-left: 19%;
 	border-color: #30337e;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
 
 }
 
@@ -319,6 +322,9 @@ body {
 	color: #30337e;
 	font-size:18px;
 	border-color:#30337e;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
 }
 
 #tabstyling li.active> a {
@@ -328,6 +334,7 @@ body {
 	font-family: 'Lato', sans-serif;
 	font-weight:300;
 }
+
 
 #researchprovidersolutionHeader {
 	font-size: 45px;
