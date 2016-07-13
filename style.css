@@ -303,7 +303,8 @@ body {
 
 
 #tabstyling{
-	margin-left: 19%;
+	margin-left: 13.25%;
+	margin-right: 19%;
 	border-color: #30337e;
 	-webkit-border-radius: 0;
 	-moz-border-radius: 0;
@@ -315,7 +316,7 @@ body {
 	font-family: 'Lato', sans-serif;
 	font-weight:400;
 	color: #30337e;
-	font-size:18px;
+	font-size:20px;
 	border-color:#30337e;
 	-webkit-border-radius: 0;
 	-moz-border-radius: 0;
@@ -326,7 +327,7 @@ body {
 
 #tabstyling li.active> a {
 	background-color: #30337e;
-	font-size: 18px;
+	font-size: 20px;
 	color: white;
 	font-family: 'Lato', sans-serif;
 	font-weight:300;
