@@ -4,15 +4,17 @@ html, body {
 	height: 100%;
 }
 
-.leftImgs{
+#leftImg{
+	visibility: hidden;
 	width:100%;
 	height:100%;
 	margin-left: 5%;
 	margin-top:10%;
-
+	
 }
 
-.leftImg2{
+#leftImg2{
+	visibility: hidden;
 	margin-left: 17%;
 	margin-top: -20%;
 	width:90%;
@@ -28,7 +30,8 @@ html, body {
 	font-weight:300;
 }
 
-.rightImg{
+#rightImg{
+	visibility: hidden;
 	width: 95%;
 	height: 85%;
 	margin-right:10%;
@@ -400,4 +403,20 @@ html, body {
 	margin-top: 15%;
 	height: 40%;
 	width: 40%;
+}
+
+
+.star {
+    visibility: hidden;
+}
+
+.fadeIn {
+    -webkit-animation: animat_show 0.8s;
+    animation: animat_show 0.8s;
+    visibility: visible !important;
+}
+
+@-webkit-keyframes animat_show {
+    0%{opacity:0}
+    100%{opacity:1}
 }
