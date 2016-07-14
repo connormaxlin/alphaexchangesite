@@ -1,7 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:100,400,300,700);
 
-body {
-
+html, body {
+	height: 100%;
 }
 
 .leftImgs{
@@ -79,6 +79,7 @@ body {
 
 #container #main{
 	background-image: url('photo-1458668383970-8ddd3927deed.jpeg');
+	background-size: 100% auto;
 	background-repeat: no-repeat;
 	position: absolute;
     z-index: -1;
@@ -86,7 +87,7 @@ body {
     bottom: 0;
     left: 0;
     right: 0;
-    opacity: 0.8;
+    opacity: 0.65;
 	height: 100vh;
 }
 
