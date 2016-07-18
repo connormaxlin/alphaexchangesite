@@ -23,9 +23,10 @@
     <script>
   $(window).scroll(function() {
     $('.animated-element').each(function(){
-    var imagePos = $(this).offset().top;
+      $(this).css('visibility', 'hidden');
+      var imagePos = $(this).offset().top;
 
-    var topOfWindow = $(window).scrollTop();
+      var topOfWindow = $(window).scrollTop();
       if (imagePos < topOfWindow+400) {
         $(this).addClass($(this).data('animation'));
       }
@@ -150,7 +151,7 @@
         <div class="col-sm-5 hidden-xs">
           <div class="row">
             <div class="col-xs-12">
-              <p class="leftTxt">Sell side brokers, independent research providers, individual experts and investor relations privately answer requests in real time</p>
+              <p data-animation="slideExpandUp" class="animated-element img-responsive leftTxt">Sell side brokers, independent research providers, individual experts and investor relations privately answer requests in real time</p>
             </div>
           </div>
         </div>
@@ -163,7 +164,7 @@
             <img src="sellside info.png" id="rightImg" data-animation="slideExpandUp" class="animated-element img-responsive">
           </div>
           <div class="col-xs-12 visible-xs">
-            <p class="rightTxt" >
+            <p data-animation="slideExpandUp" class="animated-element img-responsive rightTxt" >
               Sell side brokers, independent research providers, individual experts and investor relations privately answer requests in real time
             </p>
           </div>
@@ -182,7 +183,7 @@
               <img src="IR side.png" id="leftImg2" data-animation="slideExpandUp" class="animated-element img-responsive">
             </div>
             <div class="col-xs-12">
-              <p class="rightTxt">
+              <p data-animation="slideExpandUp" class="animated-element rightTxt rightTxtpt1">
                 The buy side receives responses from a wide audience whose expertise match their unique request
               </p>
             </div>
