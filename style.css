@@ -202,7 +202,12 @@ h1 {
 }
 
 #rightTxt2{
-	margin-top:-10%;
+	width: 100%;
+	font-size: 1.5em;
+	margin-left: initial;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	margin-bottom: 10%;
 	margin-right:17%;
 }
 
@@ -460,23 +465,6 @@ h1 {
 	width: 40%;
 }
 
-
-.star {
-    visibility: hidden;
-}
-
-.fadeIn {
-    -webkit-animation: animat_show 0.8s;
-    animation: animat_show 0.8s;
-    visibility: visible !important;
-}
-
-@-webkit-keyframes animat_show {
-    0%{opacity:0}
-    100%{opacity:1}
-}
-
-
 @media (max-width: 767px) {
 	.alphaexchange h1 {
 		font-size: 2em;
@@ -549,16 +537,18 @@ h1 {
 		max-width: 25px;
 	}
 
-	.rightTxt{
-		margin-top:15px;
-		width: 100%;
-		font-size: 1.5em;
-		margin-left: initial;
-		font-family: 'Lato', sans-serif;
-		font-weight: 300;
-	}
+.rightTxt{
+	visibility: hidden;
+	margin-top:10px;
+	width: 100%;
+	font-size: 1.5em;
+	margin-left: initial;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+}
 
-	.buysideBullets {
+.buysideBullets {
+	visibility: hidden;
     font-size: 1.2em;
     color: #999999;
     font-family: 'Lato', sans-serif;

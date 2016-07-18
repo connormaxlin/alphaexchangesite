@@ -19,6 +19,19 @@
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+    <script>
+  $(window).scroll(function() {
+    $('.animated-element').each(function(){
+    var imagePos = $(this).offset().top;
+
+    var topOfWindow = $(window).scrollTop();
+      if (imagePos < topOfWindow+400) {
+        $(this).addClass($(this).data('animation'));
+      }
+    });
+  });
+</script>
   </head>
   <body class="alphaexchange">
     <div id= "container" class="container-fluid">
@@ -101,9 +114,10 @@
           <br><br>
         </div>
       </div>
+
       <div class="row">
         <div class="col-sm-5 hidden-xs">
-          <img src="buyside info.png" id="leftImg" class="slideExpandUp img-responsive">
+          <img src="buyside info.png" id="leftImg" data-animation="slideExpandUp" class="animated-element img-responsive">
         </div>
         <div class="col-xs-3 col-sm-2 text-center">
           <div class="col-xs-12"><img src="Oval 1.png" id="oval1" class="bullet-point"></div>
@@ -112,23 +126,26 @@
         <div class="col-xs-8 col-sm-5">
           <div class="row">
             <div class="col-xs-12 visible-xs">
-              <img src="buyside info.png" id="leftImg" class="slideExpandUp img-responsive">
+              <img src="buyside info.png" id="leftImg" data-animation="slideExpandUp" class="animated-element img-responsive">
             </div>
             <div class="col-xs-12">
-              <p class="rightTxt">
-                Buy side users create bespoke projects to help answer their most pressing investment questions
-              </p>
-              <ul class="buysideBullets">
-                <li>Requests for research</li>
-                <li>Models</li>
-                <li>Data</li>
-                <li>Calls</li>
-                <li>Meetings</li>
-              </ul>
+              <div data-animation="slideExpandUp" class="animated-element img-responsive">
+                <p class="rightTxt">
+                  Buy side users create bespoke projects to help answer their most pressing investment questions
+                </p>
+                <ul class="buysideBullets">
+                  <li>Requests for research</li>
+                  <li>Models</li>
+                  <li>Data</li>
+                  <li>Calls</li>
+                  <li>Meetings</li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
       </div>
+
       <div class="row">
         <div class="col-sm-5 hidden-xs">
           <div class="row">
@@ -143,10 +160,10 @@
         </div>
         <div class="col-xs-8 col-sm-5">
           <div class="col-xs-12">
-            <img src="sellside info.png" id="rightImg" class="slideExpandUp">
+            <img src="sellside info.png" id="rightImg" data-animation="slideExpandUp" class="animated-element img-responsive">
           </div>
           <div class="col-xs-12 visible-xs">
-            <p class="rightTxt">
+            <p class="rightTxt" >
               Sell side brokers, independent research providers, individual experts and investor relations privately answer requests in real time
             </p>
           </div>
@@ -154,7 +171,7 @@
       </div>
       <div class="row">
         <div class="col-sm-5 hidden-xs">
-          <img src="IR side.png" id="leftImg2" class="slideExpandUp img-responsive">
+          <img src="IR side.png" id="leftImg2" data-animation="slideExpandUp" class="animated-element img-responsive">
         </div>
         <div class="col-xs-3 col-sm-2 text-center">
           <div class="col-xs-12"><img src="Oval 1.png" id="oval2" class="bullet-point"></div>
@@ -162,7 +179,7 @@
         <div class="col-xs-8 col-sm-5">
           <div class="row">
             <div class="col-xs-12 visible-xs">
-              <img src="IR side.png" id="leftImg2" class="slideExpandUp img-responsive">
+              <img src="IR side.png" id="leftImg2" data-animation="slideExpandUp" class="animated-element img-responsive">
             </div>
             <div class="col-xs-12">
               <p class="rightTxt">
