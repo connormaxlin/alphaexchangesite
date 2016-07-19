@@ -206,16 +206,6 @@ h1 {
 	font-weight: 300;
 }
 
-#rightTxt2{
-	width: 100%;
-	font-size: 1.5em;
-	margin-left: initial;
-	font-family: 'Lato', sans-serif;
-	font-weight: 300;
-	margin-bottom: 10%;
-	margin-right:17%;
-}
-
 .pt4words{
 	text-align:center;
 	color: white;
@@ -264,6 +254,7 @@ h1 {
 	font-family: 'Lato', sans-serif;
 	font-weight:300;
 }
+
 #links{
 	font-size:20px;
 	font-family: 'Lato', sans-serif;
@@ -546,14 +537,15 @@ h1 {
 		max-width: 25px;
 	}
 
-.rightTxt{
-	margin-top:10px;
-	width: 100%;
-	font-size: 1.5em;
-	margin-left: initial;
-	font-family: 'Lato', sans-serif;
-	font-weight: 300;
-}
+	.rightTxt{
+		margin-top:10px;
+		margin-left: 10px;
+		width: 100%;
+		font-size: 1.5em;
+		margin-left: initial;
+		font-family: 'Lato', sans-serif;
+		font-weight: 300;
+	}
 
   .buysideBullets {
   	visibility: hidden;
@@ -565,6 +557,7 @@ h1 {
 
 	#leftImg {
     margin-top: -10%;
+    margin-left: initial;
 	}
 
 	#leftImg2 {
