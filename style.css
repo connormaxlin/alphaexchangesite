@@ -59,9 +59,13 @@ h1 {
 
 .buysideBullets{
 	font-size:25px;
-	color:#999999;
+	color:#454545;
 	font-family: 'Lato', sans-serif;
 	font-weight:300;
+}
+
+.buysideBullets p {
+	color: #9e9e9e;
 }
 
 .howItWorks{
