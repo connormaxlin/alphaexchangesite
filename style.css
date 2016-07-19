@@ -487,11 +487,13 @@ h1 {
 		width: 100%;
 		height: 100%;
 		margin-top: 15%;
+		margin-bottom: 15%;
 		margin-left: initial;
 		float: initial;
 	}
 
 	.firstline {
+		margin-top: 100px;
 		font-size: 3em;
 	}
 
@@ -535,6 +537,10 @@ h1 {
 		color: #999999;
 		font-family: 'Lato', sans-serif;
 		font-weight:300;
+	}
+
+	#relations {
+		margin-top: 10px;
 	}
 
 	.bullet-point {
@@ -633,6 +639,7 @@ h1 {
 	}
 
 	#whitelogo {
+		margin-top: 50px;
 		margin-left: 0;
 		margin-right: 0;
 		padding: 20px;
@@ -643,7 +650,7 @@ h1 {
 	}
 
 	#bottomtext1 {
-    float: left;
+	text-align: center;
     color: white;
     margin-top: 0;
     font-family: 'Lato', sans-serif;
@@ -651,12 +658,17 @@ h1 {
 	}
 
 	#bottomtext2 {
-    float: left;
+	text-align: center;
     color: white;
     margin-top: 0;
     margin-right: 0;
     font-family: 'Lato', sans-serif;
     font-weight: 300;
+	}
+
+	#bottomcontent {
+		text-align: left;
+		margin-left: 33px;
 	}
 
 }
