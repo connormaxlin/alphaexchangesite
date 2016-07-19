@@ -106,7 +106,7 @@ h1 {
     bottom: 0;
     left: 0;
     right: 0;
-    opacity: 0.7;
+    opacity: 0.65;
 	height: 100vh;
 }
 
@@ -163,9 +163,14 @@ h1 {
 }
 
 #relations{
+	display: block;
 	width:90%;
 	height:90%;
 	margin-top:-10%;
+}
+
+#relations_mobile {
+	display: none;
 }
 
 .navbar.navbar-default, .header {
@@ -469,6 +474,16 @@ h1 {
 	.alphaexchange h1 {
 		font-size: 2em;
 	}
+
+  #relations {
+  	display: none;
+  }
+
+  #relations_mobile {
+  	width:90%;
+	height:40%;
+  	display: block;
+  }
 
   .rightTxtpt1 {
     margin-top: 0;
