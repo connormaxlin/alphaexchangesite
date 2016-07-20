@@ -394,8 +394,8 @@ h1 {
 
 
 #tabstyling{
-	margin-left: 24.9%;
-	margin-right: 21.4%;
+	margin-left: 27%;
+	margin-right: 19.37%;
 	border-color: #30337e;
 	-webkit-border-radius: 0;
 	-moz-border-radius: 0;
@@ -445,10 +445,10 @@ h1 {
 
 
 #researchprovidersolution {
-	margin-top: 10%;
-	margin-bottom: 10%;
+	margin-top: 20%;
+	margin-bottom: 15%;
 	height: 90%;
-	width: 90%;
+	width: 70%;
 }
 
 #investorrelationssolutionHeader {
@@ -467,7 +467,7 @@ h1 {
 	font-family: 'Lato', sans-serif;
 	font-weight:300;
 	margin-left: -8%;
-	margin-right: 0%;
+	margin-right: 20%;
 }
 
 #investorrelationssolution {
